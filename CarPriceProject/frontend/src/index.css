@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Input Style */
+.input-field {
+  @apply w-full p-3 rounded-lg border border-slate-300 bg-white text-slate-800 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all;
+}
+
+body {
+  @apply bg-slate-100;
+}

@@ -1,0 +1,15 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+python-multipart==0.0.6
+pandas
+numpy
+scikit-learn
+catboost
+shap
+joblib
+openpyxl
+python-dotenv
+langchain==0.1.0
+langchain-google-genai
+langchain-community
+duckduckgo-search

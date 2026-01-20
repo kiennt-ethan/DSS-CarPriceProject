@@ -1,0 +1,37 @@
+# --- System & IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Python (Backend) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+venv/
+env/
+.venv/
+
+# --- Node.js / React (Frontend) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.eslintcache
+
+# --- Environment Variables (Quan trọng) ---
+.env
+.env.local
+.env.*.local
+
+# --- Data & Models (Tùy chọn) ---
+# Nếu file dữ liệu hoặc model quá lớn (>100MB), GitHub sẽ chặn.
+# Nếu muốn bỏ qua data, hãy bỏ dấu # ở dòng dưới:
+# Data/
+# *.csv
+# *.cbm
+# *.pkl
